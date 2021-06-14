@@ -3,7 +3,7 @@ const baseUrl = require("../constants/urls");
 const axiosDefaultConfig = {
   baseURL: baseUrl,
   proxy: false,
-  httpsAgent: new HttpsProxyAgent('http://103.139.181.103:3128/')
+  httpsAgent: new HttpsProxyAgent('http://103.86.161.242:4153/')
 };
 
 const axios = require("axios").create(axiosDefaultConfig);
